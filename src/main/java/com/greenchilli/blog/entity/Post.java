@@ -1,7 +1,9 @@
 package com.greenchilli.blog.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity
 @Table(name = "posts")
 public class Post {
